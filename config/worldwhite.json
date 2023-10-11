@@ -1,0 +1,53 @@
+{
+    "node_env": "production",
+    "redis":{
+        "host": "worldwhitefront.2bnome.0001.euw1.cache.amazonaws.com",
+        "port": 6379,
+        "password": "",
+        "prefix": "worldprod:"
+    },
+    "redis1":{
+        "host": "panel-hosting.2bnome.0001.euw1.cache.amazonaws.com",
+        "port": 6379,
+        "password": "",
+        "prefix": "dimnode:",
+        "db": 6
+    },
+    "assetsFrom": "s3",
+    "staticUrl": "https://sitethemedata.com/v5/static/",
+    "bucketPath": "https://sitethemedata.com/",
+    "version": "004",
+    "adminApiOpenUrl": "https://subadmin.webservices55.com/api/",
+    "adminApiUrl": "https://subadmin.worldserviceprovider.com/api/",
+    "frontApiOpenUrl": "https://webservices55.com/api/dimfront/",
+    "frontApiUrl": "https://worldserviceprovider.com/api/dimfront/",
+    "frontGameDataApiUrl": "https://worldserviceprovider.com/api/dimfront/",
+    "frontPlacebetUrl": "https://bet.worldserviceprovider.com/api/dimbet/",
+    "scoreboardUrl": "wss://sportsscore24.com",
+    "themedataUrl": "https://themeservicedata.com/",
+    "encResponse": true,
+    "securePolling": 0,
+    "wsInterval" : 600,
+    "paymentUrl" : "https://prod.paymentrush.com/api/StarPay/PayNow",
+    "paymentKey" : "dmk2bLTSrb00YKsDbGd12rqdtgdBA/RO911o6BOfFzHSs79++7l",
+    "merchant_id": "202103130125",
+    "payment_call_back": "https://payapi.wolf777.com/payment",
+    "s3":{
+        "zone": "eu-west-1",
+        "accessKey": "AKIAJQQ4S4TSVAB7DE2Q",
+        "secretKey": "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",
+        "bucketName": "theme-assets",
+        "themeDir": "sitethemes/"
+    },
+    "nano":{
+        "createSessionUrl": "https://nano.worldserviceprovider.com/"
+    },
+    "consoleDebug": true,
+    "casinoRounds": 3,
+    "logEnable": false,
+    "logType": "custom",
+    "recaptchav3": {
+        "public_key": "6LdHQuwbAAAAAAqyOQcZt3bejXYn5jlgPj0bDOO7",
+        "secret_key": "6LdHQuwbAAAAAGszSiZfSkKMeNZNj7Y339f9j2jF"
+    }
+}

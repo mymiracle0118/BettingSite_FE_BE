@@ -1,0 +1,75 @@
+doctype html
+html
+  head
+    meta(name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, user-scalable=no")
+    link(href='https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&display=swap' rel='stylesheet')
+    style.        
+        body {
+            background-color: #23292E;
+            font-family: 'Noto Sans';
+            font-size: 16px;
+            line-height: 22px;
+            letter-spacing: 0;
+            color: #AAAFB5;
+            margin: 0;
+        }
+
+        .error-page {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        .error-page img {
+            max-width: 80%;
+        }
+
+        .error-page-container {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .error-page .error-name {
+            margin-top: 40px;
+            font-size: 24px;
+            text-align: center;
+        }
+
+        .error-page .error-name .error-number {
+            font-size: 56px;
+            height: 76px;
+            line-height: 76px;
+            margin-bottom: 16px;
+        }
+
+        .error-page .maitanance-text {
+            font-size: 16px;
+            width: 552px;
+            margin-top: 16px;
+        }
+
+        @media only screen and (min-width: 320px) and (max-width: 767px)
+        {
+            .error-page .error-name .error-number
+            {
+                font-size: 32px;
+            }
+            .error-page .maitanance-text
+            {
+                max-width: 90%;
+                margin: 0 auto;
+                width: auto;
+            }
+        }
+    
+    .error-page
+        img(src='#{staticUrl}front/img/maintanance.svg')
+        .error-name
+            .error-number We’ll be back soon!
+            .maitanance-text
+            | #{msg}

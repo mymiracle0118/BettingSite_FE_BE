@@ -1,0 +1,158 @@
+body {
+    font-weight: bold;
+}
+
+.balance {
+    font-weight: normal;
+}
+
+.username {
+    font-weight: normal;
+}
+
+.sport-tabs .nav-tabs .nav-link {
+    font-weight: normal;
+}
+
+.footer {
+    font-weight: normal;
+}
+.home-new-header {
+    background-color: var(--bg-table-header);
+}
+
+.home-new .sport-list-title {
+    color: var(--text-black);
+    border-bottom: 1px solid var(--text-black);
+}
+
+.home-new .footer h4 {
+    color: var(--text-black);
+    border-bottom: 1px solid var(--text-black);
+}
+
+.news-bar .news-title {
+    background-color: var(--bg-table-header);
+    color: var(--text-table-header);
+}
+
+.news-bar .news-title::after {
+    border-left: 15px solid var(--bg-table-header);
+}
+
+.news-bar {
+    background-color: var(--bg-sidebar);
+    color: var(--text-sidebar);
+}
+
+.btn-bet {
+    background-color: var(--bg-sidebar);
+    color: var(--text-sidebar);
+}
+
+.btn-bet:hover,
+.btn-bet:focus {
+    background-color: var(--bg-sidebar);
+    color: var(--text-sidebar);
+    opacity: 0.8;
+}
+.casino-table .casino-detail .back,
+.casino-table .casino-detail .lay {
+    color: #333;
+}
+.casino-nation-name {
+    background-color: #D6DEDB85;
+    color: #333;
+}
+.book-green,
+.text-success {
+    color: #128412 !important;
+}
+.book-red,
+.text-danger {
+    color: #bb2834 !important;
+}
+.casino-bl-box-item {
+    color: #333;
+}
+.casino-tabs {
+    background-color: var(--bg-table-header);
+}
+.casino-tabs .nav-tabs .nav-link {
+    color: var(--text-table-header);
+}
+
+.casino-tabs .nav-tabs .nav-item .nav-link.active {
+    color: var(--text-table-header);
+    border-bottom: 3px solid var(--text-fancy);
+}
+
+.fantasy-desc-container .casino-tabs {
+    background-color: var(--bg-table-header);
+}
+
+.faq-question-box .casino-tabs .nav-tabs .nav-item .nav-link.active {
+    color: var(--text-table-header);
+    border-bottom: 3px solid var(--text-table-header);
+}
+
+.faq-question-box .casino-tabs .nav-tabs .nav-item .nav-link {
+    color: var(--text-table-header);
+}
+
+.faq-container .report-title {
+    color: var(--text-black);
+}
+
+.bet-buttons .btn {
+    background-color: var(--bg-table-header);
+}
+
+.bet-buttons .btn span {
+    color: var(--text-table-header);
+}
+
+.lucky7-extra-bets-item {
+    background-color: var(--bg-table-header);
+    color: var(--text-table-header);
+}
+
+.casino-primary-tabs {
+    background-color: var(--bg-table-header);
+}
+.teenpattiopen .casino-open-card-box {
+    background-color: var(--bg-table-header);
+}
+.home-new-header a {
+    color: var(--text-table-header);
+}
+
+.footer {
+    background-color: #f2f2f2;
+}
+
+.modal-login-new .form-control {
+    /*border: 1px solid var(--text-fancy);*/
+} 
+.login-seperator
+{
+    background-color: #fff;
+    opacity: 0.3;
+}
+@media only screen and (min-width: 320px) and (max-width: 1279px) {
+    .header {
+        background-color: var(--bg-table-header);
+        color: var(--text-table-header);
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .race20 .total-points>div {
+        border: 1px solid var(--text-black);
+    }
+
+    .race20 .total-points .text-playerb {
+        color: var(--text-black);
+        font-weight: bold;
+    }
+}

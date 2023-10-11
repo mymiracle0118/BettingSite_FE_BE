@@ -1,0 +1,33 @@
+.home-new-header
+{
+    background-color: var(--bg-table-header);
+}
+.sport-list-item
+{
+    color: var(--text-table-header);
+}
+.navbar-header
+{
+	background-color: var(--bg-table-header);
+	color: var(--text-table-header);
+}
+.header-item
+{
+	color: var(--text-table-header) !important;
+}
+body[data-sidebar="dark"] .navbar-brand-box
+{
+	background-color: var(--bg-table-header);
+}
+.poker-result-board
+{
+	background-color: var(--bg-table-header);
+	color: var(--text-table-header);
+}
+.navbar-header .dropdown.show .header-item {
+    background-color: var(--bg-sidebar);
+}
+.home-new
+{
+	background-color: var(--bg-sidebar);
+}

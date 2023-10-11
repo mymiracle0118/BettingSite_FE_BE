@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="44px" viewBox="0 0 28 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 60 (101010) - https://sketch.com -->
+    <title>3FCB39D6-23A6-4A3F-9913-AAD6E3893CCD</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="playing-cards" transform="translate(-594.000000, -255.000000)">
+            <g id="club" transform="translate(66.000000, 255.000000)">
+                <g id="card_club-K" transform="translate(528.000000, 0.000000)">
+                    <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="28" height="44" rx="2"></rect>
+                    <path d="M11.2589022,34.5375258 C12.0112186,34.5375258 12.6996349,34.2588937 13.2508791,33.7971081 C13.5516352,36.7243516 9.9945337,37.0966261 10.1721758,36.9850815 L10.1721758,38 L17.8269731,38 L17.8269731,36.9850815 C17.9824631,37.080101 14.5126916,36.7642874 14.7806458,33.7801239 C15.325926,34.2253844 16.0036923,34.5375258 16.7410986,34.5375258 C18.5418014,34.5375258 20,32.9648841 20,31.0250172 C20,29.2747303 18.8110335,27.8278632 17.2569848,27.5607069 C17.2578368,27.5441818 17.2595408,27.5285747 17.2595408,27.5125086 C17.2595408,25.5726417 15.8000642,24 14.0002134,24 C12.2003626,24 10.740886,25.5721827 10.740886,27.5125086 C10.740886,27.5285747 10.74259,27.5441818 10.743442,27.5607069 C9.18939335,27.8278632 8,29.2747303 8,31.0250172 C7.99872284,32.963966 9.45819947,34.5375258 11.2589022,34.5375258 Z" id="club" fill="#131313" fill-rule="nonzero"></path>
+                    <text id="K" font-family="NotoSans-Bold, Noto Sans" font-size="16" font-weight="bold" fill="#131313">
+                        <tspan x="8.188" y="18">K</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

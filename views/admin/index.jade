@@ -1,0 +1,128 @@
+doctype html
+html
+  head
+    title=domain.split('.')[0].toUpperCase()
+    meta(charset='utf-8')
+    //- meta(name='viewport', content='width=1400')
+    meta(name="theme-color" content="#{themeDetail.bgbody}")
+    meta(name='viewport', content='width=device-width,initial-scale=1, maximum-scale=1, user-scalable=no')
+    //- link(rel="icon", type="image/png", href="#{staticUrl}admin/img/favicon.png")
+    script(async).
+      var elapsedTime = 0;
+      var isInteractive = false;
+      if (document.readyState == 'loading') {
+          elapsedTime = 0
+      }
+
+      document.onreadystatechange = function () {
+          var state = document.readyState
+          if (state == 'interactive') {
+              elapsedTime = 70
+          }
+          if (state == 'complete') {
+            document.querySelector('.bodymovinanim').style.display = 'none';
+              var interval2 = setInterval(() => {
+                  elapsedTime++
+              }, 20);
+          }
+      }
+    
+    link(rel='stylesheet', href='https://use.fontawesome.com/releases/v5.7.0/css/all.css')
+    link(rel='stylesheet', href='#{staticUrl}admin/css/app.css?ver=#{version}')
+    link(rel='stylesheet', href='#{staticUrl}front/plugin/owl/assets/owl.carousel.min.css?ver=#{version}')
+    link(rel='stylesheet', href='#{staticUrl}front/plugin/owl/assets/owl.theme.default.min.css?ver=#{version}')
+    link(rel='stylesheet', href='#{staticUrl}admin/css/style.css?ver=#{version}')
+    
+    if(themeDetail.theme && themeDetail.theme == '2')
+      //- link(rel='stylesheet', href='#{bucketPath}sitethemes/#{domain}/admin/theme.css')
+    else
+      link(rel='stylesheet', href='#{bucketPath}sitethemes/#{domain}/admin/theme.css?ver=#{version}')
+
+    if(themeDetail.theme && themeDetail.theme != '')
+      link(rel='stylesheet', href='#{staticUrl}admin/css/templates/template#{themeDetail.theme}.css?ver=#{version}')
+    link(rel='stylesheet', href='#{staticUrl}admin/css/custom.css?ver=#{version}')   
+    link(rel='stylesheet', href='#{staticUrl}admin/css/responsive.css?ver=#{version}')  
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.5.3/lottie_svg.min.js")
+  body
+    .bodymovinanim
+    #app
+      index
+    script.
+      let svgContainer = document.querySelector('.bodymovinanim');
+      let animItem = bodymovin.loadAnimation({
+        wrapper: svgContainer,
+        animType: 'svg',
+        loop: true,
+        path: `#{staticUrl}front/js/Loader-v6.0.json`
+      });
+
+      function getWidth() {
+        var doc = document,
+            w = window;
+        var docEl = (doc.compatMode && doc.compatMode === 'CSS1Compat') ?
+            doc.documentElement : doc.body;
+
+        var width = docEl.clientWidth;
+        var height = docEl.clientHeight;
+
+        if (w.innerWidth && width > w.innerWidth) {
+            width = w.innerWidth;
+            height = w.innerHeight;
+        }
+        return width
+      }
+
+      IS_MOBILE = getWidth() < 1280 ? true : false
+      IS_TABLET = getWidth() >= 768 ? true : false
+      if (#{isMobile})
+        IS_MOBILE_DEVICE = true
+      else
+        IS_MOBILE_DEVICE = false
+
+      DOMAIN = "#{domain}"
+      IP_ADDRESS = localStorage.getItem("clientAddr");
+
+    script(src='#{staticUrl}admin/js/manifest.js?ver=#{version}')
+    script(src='#{staticUrl}admin/js/utilityVendor.js?ver=#{version}')
+    script(src='#{staticUrl}admin/js/vuevendor.js?ver=#{version}')
+    script(src='#{staticUrl}admin/js/vendor.js?ver=#{version}')
+    
+    script.
+      !{app_js}
+    script(src='#{staticUrl}front/plugin/owl/owl.carousel.min.js?ver=#{version}')
+    script(src='#{staticUrl}admin/js/custom.js?ver=#{version}')
+    script.
+      $(function () {
+        $.getJSON("https://api.ipify.org?format=jsonp&callback=?",
+          function (json) {
+            IP_ADDRESS = json.ip;
+            localStorage.setItem("clientAddr", json.ip);
+          }
+        );
+      });
+      $(window).scroll(function() {
+        if(!IS_MOBILE){
+          if ($(this).scrollTop() > 12) {
+              $('.right-sidebar').addClass('sticky');
+          }
+          if ($(this).scrollTop() < 12) {
+              $('.right-sidebar').removeClass('sticky');
+          }
+        }else{
+          $('.right-sidebar').removeClass('sticky');
+        }
+      });
+      $(window).resize(function () {
+        IS_MOBILE = getWidth() < 1280 ? true : false
+        IS_TABLET = getWidth() >= 768 ? true : false
+        if(!IS_MOBILE){
+          if ($(this).scrollTop() > 12) {
+              $('.right-sidebar').addClass('sticky');
+          }
+          if ($(this).scrollTop() < 12) {
+              $('.right-sidebar').removeClass('sticky');
+          }
+        }else{
+          $('.right-sidebar').removeClass('sticky');
+        }   
+      });

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Player
+    style.
+      body{
+          margin: 0;
+          padding: 0;
+          text-align: center;
+      }
+      iframe{
+          max-width:100%;
+          width: 100%;
+          height:100vh;
+          border: 0;
+          background: #333;
+          margin: 0;
+          padding: 0;
+      }
+    //- if (isMobile)
+    //-   style.
+    //-     iframe{
+    //-       height: 245px;
+    //-     }
+    //- else
+    //-   style.
+    //-     iframe{
+    //-       height: 200px;
+    //-     }
+  body
+    iframe(src="#{url}&compact")
+    

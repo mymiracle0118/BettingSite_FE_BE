@@ -1,0 +1,211 @@
+.logo {
+    padding: 10px;
+}
+.logo img {
+    max-height: 100px;
+    max-width: 100%;
+}
+.home-new-logo
+{
+	overflow: unset;
+	position: absolute;
+	top: -10px;
+}
+.home-new-logo img
+{
+	max-height: 60px;
+}
+.home-new-header .navbar
+{
+	padding: 0;
+}
+.header-casino
+{
+	height: 125px;
+	display: block;
+}
+.header-casino .news-bar,.header-casino .upcoming-fixure
+{
+	width: 80%;
+}
+.header-casino .news-bar {
+    border-radius: 8px;
+    margin: 0;
+    padding: 0;
+    font-size: var(--font-caption);
+    color: var(--text-highlight);
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    height: 30px;
+    flex: 1;
+    background-color: var(--bg-tabs);
+    margin-left: 10px;
+}
+
+.header-casino .news-bar .news-title:after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-top: 15px solid transparent;
+    border-left: 15px solid var(--btn-primary);
+    border-bottom: 15px solid transparent;
+    right: -30px;
+    top: 0;
+}
+.logo-casino
+{
+	height: 125px;
+}
+.header-casino .header-right
+{
+	width: 20%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	text-align: right;
+}
+.header-casino ~ .center-main-content
+{
+	margin-top: 192px;
+	min-height: calc(100% - 192px);
+}
+.logo-casino
+{
+	height: 125px;
+}
+.depo-withdraw-btn
+{
+	position: absolute;
+	right: 5px;
+	top: 3px;
+
+}
+.depo-withdraw-btn .btn
+{
+	height: 28px;
+	padding: 0 10px;
+	line-height: 24px;
+	opacity: 1;
+	color: var(--text-white);
+	width: auto;
+	margin: 0;
+}
+.banner-iframe.slot-iframe.banner-frame-show
+{
+	top: 193px;
+	height: calc(100vh - 193px);
+}
+.header-casino .news-bar, .header-casino .upcoming-fixure{
+    margin-top: 15px;
+}
+@media only screen and (min-width: 320px) and (max-width: 1279px)
+{
+	.logo
+	{
+		padding: 0;
+	}
+	.logo img
+	{
+		max-height: 50px;
+	}
+	.header-casino .header-right
+	{
+		position: unset;
+		width: auto;
+	}
+	.center-main-content
+	{
+		margin-top: 68px;
+	}
+	.depo-withdraw-btn
+	{
+		right: unset;
+		left: 0;
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		top: 5px;
+		position: unset;
+		margin-top: 10px;
+		margin-bottom: 15px;
+	}
+	.depo-withdraw-btn .btn
+	{
+		padding: 0 5px;
+	}
+	.banner-iframe.slot-iframe.banner-frame-show
+	{
+		top: 68px;
+	}
+}
+@media only screen and (min-width: 320px) and (max-width: 767px)
+{
+	.home-new-logo img
+	{
+		max-height: 50px;
+	}
+	.header-casino ~ .center-main-content
+	{
+		margin-top: 110px;
+		min-height: calc(100% - 110px);
+	}
+	.logo img
+	{
+		max-height: 50px;
+	}
+	.header-casino
+	{
+		height: auto;
+	}
+	.home-new-header
+	{
+		height: 60px;
+	}
+	.home-new .upcoming-fixure
+	{
+		margin-top: 60px;
+	}
+	.home-new-logo
+	{
+		position: relative;
+	}
+	.home-new-header-bottom .download-apk
+	{
+		bottom: 0;
+	}
+	.home-new .footer ul li
+	{
+		padding: 0;
+	}
+
+}
+@media only screen and (min-width: 768px) and (max-width: 1279px)
+{
+	.header-casino ~ .center-main-content
+	{
+		margin-top: 110px;
+		min-height: calc(100% - 110px);
+	}
+	.logo img
+	{
+		max-height: 50px;
+	}
+	.header-casino
+	{
+		height: auto;
+	}
+}
+@media only screen and (min-width: 1280px) and (max-width: 1599px)
+{
+	.header-casino ~ .center-main-content
+	{
+		margin-top: 192px;
+		min-height: calc(100% - 192px);
+	}
+	.logo-casino
+	{
+		height: 125px !important;
+	}
+}

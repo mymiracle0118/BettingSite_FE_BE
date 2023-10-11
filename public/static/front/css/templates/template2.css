@@ -1,0 +1,487 @@
+
+ body
+{
+    font-weight: bold;
+}
+ .balance
+{
+    font-weight: normal;
+}
+ .username
+{
+    font-weight: normal;
+}
+ .sport-tabs .nav-tabs .nav-link
+{
+    font-weight: normal;
+}
+ .footer
+{
+    font-weight: normal;
+}
+ .bet-buttons .btn
+{
+    background-color: var(--bg-table-header);
+}
+ .btn-bet
+{
+    background-color: var(--bg-table-header);
+}
+ .btn-bet:hover
+{
+    color: var(--text-highlight);
+}
+ .lucky7-extra-bets-item
+{
+    background-color: #0606fb9e;
+    color: #eee;
+}
+ .lucky7eu .lucky7-extra-bets-item
+{
+    background-color: #6a6aff9e;
+}
+.lucky7 .lucky7-extra-bets-item .casino-book
+{
+    color: var(--text-white);
+}
+.lucky7eu .casino-book
+{
+    color: var(--text-white);
+}
+ .lucky7-card
+{
+    background-color: var(--bg-table-header);
+}
+ .cards-top .cards-top-box
+{
+    border: 5px solid var(--bg-table-header);
+}
+ .casino-tabs
+{
+    background-color: var(--bg-table-header);  
+}
+ .casino-tabs
+{
+    background-color: var(--bg-table-header);  
+}
+.worli .casino-tabs
+{
+    background-color: var(--bg-body);
+}
+ .teenpattiopen .casino-open-card-box
+{
+    background-color: var(--bg-table-header);   
+}
+ .news-bar
+{
+    background-color: var(--bg-table-header);
+    color: var(--text-table-header);
+}
+ .news-bar .news-title
+{
+    background-color: #666;
+    color: #fff;
+}
+ .news-bar .news-title::after
+{
+    border-left: 15px solid #666;
+}
+ .main-rules a{
+    color: var(--text-black);
+}
+ .main-rules a .fa-info-circle
+{
+    color: var(--text-black);
+}
+ .worli .casino-tabs li
+{
+    background-color: var(--bg-table-header);
+}
+ .casino-tabs .nav-tabs .nav-link
+{
+    font-weight: normal;
+    color: #333;
+}
+ .casino-tabs .nav-tabs .nav-link.active
+{
+    color: var(--text-black);
+    border-bottom: 3px solid var(--text-black);
+}
+ .casino-primary-tabs
+{
+    background-color: var(--bg-table-header);
+}
+ .casino-primary-tabs .nav-tabs .nav-item .nav-link
+{
+    color: #333;
+}
+ .casino-primary-tabs .nav-tabs .nav-item .nav-link.active
+{
+    border-bottom: 3px solid var(--text-black);
+    color: var(--text-black);
+}
+ .casino-nation-name .fa-info-circle
+{
+    color: var(--text-table-header);
+}
+ .user-dropdown a:hover
+{
+    opacity: 1;
+}
+ .menu-box li a:hover,  .menu-box li a:focus,  .menu-box li a:active
+{
+    color: var(--text-black);
+}
+ .menu-box li.show a[class*="sport"] {
+    color: var(--text-white);
+}
+ .bet-buttons .btn span
+{
+    color: var(--text-highlight);
+}
+ .modal-header
+{
+    background-color: var(--bg-success);
+}
+ .modal-login-new .modal-header
+{
+    background-color: transparent;
+}
+ .modal-login-new .close-login-modal img
+{
+    filter: invert(1);
+}
+ .modal-header .close, #betSodaModal .modal-header .close
+{
+    color: var(--text-white);
+}
+ .modal-header .modal-title
+{
+    color: var(--text-white);
+}
+ .modal-title .casino-min-max
+{
+    color: var(--text-white);
+    opacity: 0.9;
+}
+ .odds-box input.form-control::placeholder
+{
+    color: var(--text-black);
+}
+ input:checked ~ .custom-control-label::before
+{
+    border-color: #666;
+    background-color: #666;
+}
+ .detail-page-container .market-2 .nation-name > span:first-child,  .detail-page-container .market-4 .nation-name > span:first-child,  .detail-page-container .market-5 .nation-name > span:first-child,  .detail-page-container .market-9 .nation-name > span:first-child,  .detail-page-container .market-11 .nation-name > span:first-child
+{
+    font-weight: bold;
+    color: #333;
+}
+ .back-title, .lay-title
+{
+    color: var(--text-black) !important;
+}
+ .login-form::placeholder .form-control,  .change-form .form-control::placeholder
+{
+    color: var(--text-highlight);
+}
+ .casino-report-tabs
+{
+    background-color: var(--bg-table-header);
+}
+ .table-hover tbody tr:hover
+{
+    background-color: transparent;
+}
+ .teenpattitest .casino-nation-name
+{
+    background-color: var(--bg-table-header);
+}
+ .suspended:after
+{
+    background-color: #D6DEDBD6;
+    color: #000;
+}
+ .suspendedtext:after, .suspendedfull:after
+{
+    background-color: #D6DEDBD6;
+}
+ .suspended:before
+{
+    filter: invert(0);
+}
+ .dt20 .pair-box
+{
+    background-color: var(--bg-table-header);
+}
+ .dt1day .pairfancy
+{
+    background-color: var(--bg-table-header);
+}
+ .worli-cards-block
+{
+    background-color: var(--bg-table-header);
+    color: var(--text-table-header);
+}
+ .lottery .casino-tabs
+{
+    background-color: #040404;
+}
+ .cmeter-card-box{
+    background-color: #fff;
+    border: 3px solid var(--bg-table-header);
+}
+ .loader-section
+{
+    background-color: #f6f6f6b8;
+}
+ .loader-section-icon
+{
+    border-color: #000 transparent;
+}
+ .book-green, .text-success
+{
+    color: #128412 !important;
+    font-weight: normal;
+}
+ .book-red, .text-danger
+{
+    color: #bb2834 !important;
+    font-weight: normal;
+}
+ .lottery-last-result-title div,.lottery-sidebar .casino-place-bet-title > div
+{
+    color: var(--text-white);
+}
+ .lottery-result-icon
+{
+    color: var(--text-white);
+}
+ .lottery-my-bet-box
+{
+    color: var(--text-white);
+}
+ .fa-info-circle
+{
+    color: #666;
+}
+ .casino-video-rules-icon i
+{
+    color: var(--text-white);
+}
+ .fa-info-circle:hover
+{
+    color: #777;
+}
+ .casino-bl-box-item
+{
+    color: #333;
+}
+ .casino-table .casino-detail .back, .casino-table .casino-detail .lay
+{
+    color: #333;
+}
+ .casino-nation-name
+{
+    color: #333;
+}
+ .casino-table
+{
+    color: #333;
+}
+ .casino-video-cards-container
+{
+    color: #fff;
+}
+.andar-bahar2 .casino-video-cards-container
+{
+    color: #000;
+}
+ .lucky7eu.casino-table
+{
+    color: #eee;
+}
+ .mx-calendar-content .cell.active
+{
+    color: var(--text-black);
+}
+ .baccarat .baccarat-min-max
+{
+    color: #eee;
+}
+ .baccarat .statistics
+{
+    color: #eee;
+}
+ .icon-range
+{
+    background-color: #333;
+    color: #ccc;
+}
+ .cricket20videobanner
+{
+    border: 2px solid #666;
+}
+ .bet-table-header.nodata
+{
+    background-color: var(--bg-table-header);
+    color: var(--text-table-header);
+}x
+ .home-new .sport-list-title
+{
+    color: var(--text-black);
+    border-bottom: 1px solid var(--text-black);
+}
+ .home-new-header a
+{
+    color: var(--text-highlight)
+}
+ .home-new .footer h4
+{
+    color: var(--text-black);
+    border-bottom: 1px solid var(--text-black);
+}
+ .home-new-header-bottom .download-apk
+{
+    color: var(--text-black);
+}
+ .home-new-header-bottom .btn
+{
+    background-color: var(--text-black);
+    border-color: var(--text-black);
+    color: var(--text-fancy);
+}
+ .header-right .bal-point
+{
+    color: #111;
+}
+ .change-theme img {
+    filter: invert(0);
+}
+ .game-icon img {
+    filter: invert(0);
+}
+ .modal-login-new .form-control
+{
+    color: #333;
+    opacity: 1;
+}
+ .casino-nation-name
+{
+    background-color: #D6DEDB85;
+}
+ .teenpatti20 .casino-box-header .casino-nation-name {
+    background-color: transparent;
+}
+ .poker1day .casino-nation-name {
+    background-color: transparent;
+}
+ .dt1day .dt1dayfancy .casino-nation-name
+{
+    background-color: transparent;
+}
+ .aaa .casino-nation-name {
+    background-color: transparent;
+}
+ .casino-queen .casino-nation-name
+{
+    background-color: transparent;
+}
+ .race20 .casino-nation-name {
+    background-color: transparent;
+}
+ .teenpatti1day .casino-nation-name {
+    background-color: #00000047;
+}
+ .teenpatti1day .casino-detail .casino-nation-name.no-border {
+    background-color: transparent !important;
+}
+ .teenpatti20 .casino-nation-name {
+    background-color: #00000047;
+}
+ .teenpatti20 .casino-detail .casino-nation-name.no-border {
+    background-color: transparent !important;
+}
+ .baccarat .casino-nation-name {
+    background-color: #00000047;
+}
+ .baccarat .casino-detail .casino-nation-name.no-border {
+    background-color: transparent !important;1
+}
+ .baccarat2 .casino-nation-name {
+    background-color: #00000047;
+}
+ .baccarat2 .casino-detail .casino-nation-name.no-border {
+    background-color: transparent !important;
+}
+ .lucky7eu .casino-nation-name {
+    background-color: #00000047;
+}
+ .lucky7eu .casino-detail .casino-nation-name.no-border {
+    background-color: transparent !important;
+}
+ .bet-table-box {
+    border-bottom: 1px solid #D6DEDB;
+}
+ .sport-tabs .nav-tabs .nav-link
+{
+    border-right: 1px solid #D6DEDB;   
+}
+ .detail-page-container .market-6 .fancy-tripple
+{
+    border-bottom: 1px solid #D6DEDB;
+}
+ .detail-page-container .market-1 .bet-table-row .market-1-item
+{
+    border-bottom: 1px solid #D6DEDB;
+}
+ .game-date
+{
+    border-right: 1px solid #D6DEDB;
+}
+ .footer
+{
+    border-top: 1px solid #D6DEDB;
+}
+ .bl-box.no-val {
+    border: 1px solid #D6DEDB;
+}
+ .user-icon
+{
+    background-color: #D6DEDB;
+}
+ .faq-container .report-title
+{
+    color: var(--text-black);
+}
+ .faq-question-box .casino-tabs .nav-tabs .nav-item .nav-link.active
+{
+    color: var(--text-black);
+    border-bottom: 3px solid var(--text-black);
+}
+ .faq-question-box .casino-tabs .nav-tabs .nav-item .nav-link:hover,  .faq-question-box .casino-tabs .nav-tabs .nav-item .nav-link:focus
+{
+    color: var(--text-black);
+}
+ .table thead
+{
+    border: 1px solid #D6DEDB;
+}
+ .table td,
+ .table th
+{
+    border-bottom: 1px solid #D6DEDB;
+}
+ .casino-primary-tabs .nav-tabs .nav-item .nav-link
+{
+    border-right: 1px solid #B4B9B7;
+}
+.home-new-header
+{
+    border-bottom: 1px solid var(--bg-table-header);
+}
+input:checked ~ .custom-control-label::before {
+    border-color: #666 !important;
+    background-color: #666 !important;
+}
